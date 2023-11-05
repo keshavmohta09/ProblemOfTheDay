@@ -1,3 +1,6 @@
+"""
+Question Link: https://leetcode.com/problems/find-the-winner-of-an-array-game/description/?envType=daily-question&envId=2023-11-05
+"""
 class Solution(object):
     def getWinner(self, arr, k):
         """
