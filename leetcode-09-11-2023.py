@@ -4,10 +4,13 @@ Question Link: https://leetcode.com/problems/count-number-of-homogenous-substrin
 
 class Solution:
     
+    # def fact_add(self,n):
+    #     if n==0:
+    #         return 0
+    #     return n+self.fact_add(n-1)
+
     def fact_add(self,n):
-        if n==0:
-            return 0
-        return n+self.fact_add(n-1)
+        return (n*(n+1))//2
 
     def countHomogenous(self, s: str) -> int:
         count = 0
