@@ -14,7 +14,7 @@ class TreeNode:
 
 
 class Solution:
-    def make(self, root: Optional[TreeNode], s: str):
+    def make(self, root: Optional[TreeNode], s: str) -> str:
         s += str(root.val)
         if root.left:
             s += "("
